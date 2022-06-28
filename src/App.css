@@ -1,0 +1,37 @@
+body{
+  background-color: #97e9ff;
+}
+
+h1{
+  text-align: center;
+  font-weight: 900;
+}
+
+.caja{
+  font-weight: 900; 
+}
+
+.btn{
+  display: inline-block;
+  text-decoration:none;
+  font-weight: 600;
+  font-size: 20px;
+  color:black;
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-left:40px;
+  padding-right:40px;
+  background-color:#137fd9;
+  border-color: #6bbef9;
+  border-width: 3px;
+  border-style: solid;
+  border-radius:35px;
+  cursor: pointer;
+  margin: 2%;
+  width: 45%
+  }
+
+.container{
+  justify-content: center;
+  border: 5%;
+}
