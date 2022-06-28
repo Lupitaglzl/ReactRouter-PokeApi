@@ -16,4 +16,4 @@ export const Card =({results}) =>{
             </ul>
         </div>
     )   
-}
+} 
