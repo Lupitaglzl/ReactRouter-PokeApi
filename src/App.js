@@ -2,7 +2,7 @@ import React,{useState} from "react";
 import { Usefetch } from "./componentes/Usefetch";
 import { Card } from "./componentes/card/Card";
 import './App.css';
-
+ 
 const App=()=>{
   const[url,setUrl]=useState(' https://pokeapi.co/api/v2/pokemon/')
   const estado =Usefetch(url)
