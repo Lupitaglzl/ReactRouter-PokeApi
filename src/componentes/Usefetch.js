@@ -2,7 +2,7 @@ import React, {useState,useEffect} from "react";
 
 export const Usefetch =(url) =>{
     const[resultado,setResultado]=useState({cargando:true,data:null})
-    useEffect(() =>{
+    useEffect(() =>{ 
         getDatos(url)
     },[url])
     async function getDatos(url){
