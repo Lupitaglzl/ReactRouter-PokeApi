@@ -1,37 +1,74 @@
 body{
-  background-color: #97e9ff;
+  background:rgb(231, 220, 220);
 }
-
-h1{
-  text-align: center;
-  font-weight: 900;
-}
- 
-.caja{
-  font-weight: 900; 
-}
-
-.btn{
-  display: inline-block;
-  text-decoration:none;
-  font-weight: 600;
-  font-size: 20px;
-  color:black;
-  padding-top:15px;
-  padding-bottom:15px;
-  padding-left:40px;
-  padding-right:40px;
-  background-color:#137fd9;
-  border-color: #6bbef9;
-  border-width: 3px;
-  border-style: solid;
-  border-radius:35px;
-  cursor: pointer;
-  margin: 2%;
-  width: 45%
-  }
-
-.container{
+.conten{
   justify-content: center;
   border: 5%;
+}
+.btn{
+  outline: none;
+    border: none;
+    width: 150px;
+    padding: 0.3rem 0;
+    margin: 1rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #a42336;
+    border-radius: 8px;
+}
+nav{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px;
+  background-color: rgb(23, 14, 14);
+  color: #fff;
+}
+.nav-bar {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.nav-bar:hover{
+  background-color: #fdf9c4;
+  color: #c5c6c8;
+}
+.nav-bar.active{
+  background-color: #04AA6D;
+  color: white;
+}
+h1{
+  font-size: 40px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.botones{
+  display: flex;
+  justify-content: center;
+}
+.boton{
+  width: 120px;
+  height: 40px;
+  border-radius: 9px;
+  margin-left: 20px;
+  background-color: rgb(25, 24, 24);
+  color: #ffda9e;
+  border: none;
+}
+.boton:hover{
+  background-color:rgb(102, 104, 105)
+}
+.matricula{
+  color: black;
+  margin: auto;
+  font-size: 30px;
+  text-align: center;
 }
